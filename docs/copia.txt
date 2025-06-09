@@ -1,0 +1,297 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<script type='text/javascript' src='js/jquery/jquery.js'></script>
+	<title>La Cienega</title>
+
+	
+</head>
+
+<body>
+
+	<!-- Start Header/Navigation -->
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+		<div class="row">
+			<!-- START LOGO -->
+			<div id="logo" class="span4 group">
+				<a id="logo-img" href="index.html" title="celestino">
+					<img src="./images/sotol_cienega-removebg-preview.png"  title="La ciénega " alt="La ciénega" />
+				</a>
+			</div>
+			<!-- END LOGO -->
+	
+		</div>
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsFurni">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Inicio</a>
+					</li>
+					<li><a class="nav-link" href="shop.html">Catalogo</a></li>
+					<li><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+					<li><a class="nav-link" href="contact.html">Contactanos</a></li>
+				</ul>
+
+				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<li><a class="https://wa.me/c/5216562686487" href="https://wa.me/c/5216562686487"><img
+								src="images/cart.svg"></a></li>
+				</ul>
+			</div>
+		</div>
+
+	</nav>
+	<!-- End Header/Navigation -->
+
+	<!-- Start Hero Section -->
+	<div class="hero">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-5">
+					<div class="intro-excerpt">
+						<h1>Sotol <span clsas="d-block">La cienega</span></h1>
+						<p class="mb-4">El sabor de mi tierra.</p>
+						<p><a href="https://wa.me/c/5216562686487" class="btn btn-secondary me-2">Comprar</a></p>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="hero-img-wrap">
+						<img src="images/pagprin1.png" filter="blur()" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Hero Section -->
+	
+
+	<!-- Start Product Section -->
+	<div class="product-section" >
+		<div class="container">
+			<div class="row">
+
+				<!-- Start Column 1 -->
+				<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+					<h2 class="mb-4 section-title">Nuestros productos hechos con la mayor calidad</h2>
+					<p class="mb-4"> Bebida alcohólica con denominación de origen para los estados de Chihuahua, Durango
+						y Coahuila. Elaborado a partir de la planta de Sotol también conocida como Sereque de nombre
+						científico Dasylirion Wheeleri que es una especie de agave endémico de la región de Chihuahua.
+					</p>
+					<p><a href="shop.html" class="btn">Explorar</a></p>
+				</div>
+				<!-- End Column 1 -->
+
+				<!-- Start Column 2 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<a class="product-item" href="cart.html">
+						<img src="images/prod1.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Nordic Chair</h3>
+						<strong class="product-price">$50.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 2 -->
+
+				<!-- Start Column 3 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<a class="product-item" href="cart.html">
+						<img src="images/prod2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Kruzo Aero Chair</h3>
+						<strong class="product-price">$78.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 3 -->
+
+				<!-- Start Column 4 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<a class="product-item" href="cart.html">
+						<img src="images/prod3.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Ergonomic Chair</h3>
+						<strong class="product-price">$43.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 4 -->
+
+			</div>
+		</div>
+	</div>
+	<!-- End Product Section -->
+
+	<!-- Start Why Choose Us Section -->
+	<div class="why-choose-section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-6">
+					<h2 class="section-title">¿Porque escojernos?</h2>
+					<p>Sotol La Ciénega es una empresa que se dedica a promover y acercar a los consumidores la bebida
+						del Sotol, la cual cuenta con denominación de origen para los estados de Chihuahua, Durango y
+						Coahuila.
+						Sotol La Ciénega produce Sotol con los más altos estándares de calidad buscando obtener un sabor
+						único que resalte el sabor del Sereque de la región de la sierra de Chihuahua.
+					</p>
+
+					<div class="row my-5">
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/truck.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Envío y entrega</h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/bag.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Facil de comprar</h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/support.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Atencion 24/7 </h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+
+				<div class="col-lg-5">
+					<div class="img-wrap">
+						<img src="images/so.jpg" alt="Image" class="img-fluid">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Why Choose Us Section -->
+
+	<!-- Start We Help Section -->
+	<div class="we-help-section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-7 mb-5 mb-lg-0">
+					<div class="imgs-grid">
+						<div class="grid grid-1"><img src="images/drink1.jpg" alt="Untree.co"></div>
+						<div class="grid grid-2"><img src="images/drink3.jpg" alt="Untree.co"></div>
+						<div class="grid grid-3"><img src="images/drink2.jpg" alt="Untree.co"></div>
+					</div>
+				</div>
+				<div class="col-lg-5 ps-lg-5">
+					<h2 class="section-title mb-4">Ideas para bebidas</h2>
+					<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
+						Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+						habitant morbi tristique senectus et netus et malesuada</p>
+
+					<ul class="list-unstyled custom-list my-4">
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+					</ul>
+					<p><a herf="#" class="btn">Explore</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End We Help Section -->
+
+	<!-- Start Popular Product -->
+
+	<!-- End Popular Product -->
+
+	<!-- Start Testimonial Slider -->
+
+	<!-- End Testimonial Slider -->
+
+	<!-- Start Blog Section -->
+
+	<!-- End Blog Section -->
+
+	<!-- Start Footer Section -->
+	<footer class="footer-section">
+		<div class="container relative">
+			<div class="sofa-img">
+				<img src="images/cello.png" alt="Image" class="img-fluid">
+			</div>
+	
+			<div class="row g-5 mb-5">
+				<div class="col-lg-4">
+					<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo" >La cienega<span>.</span></a></div>
+					<div class="grupo-2"><small>&copy; 2024 <b>Sotol La Ciénega</b>- Todos Los Derechos Reservados.</small></div>
+					<ul class="list-unstyled custom-social">
+						<li><a href="https://www.facebook.com/SotolLaCienega" ><span class="fa fa-brands fa-facebook-f"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+						<li><a href="https://www.instagram.com/sotollacienega/"><span class="fa fa-brands fa-instagram" ></span></a></li>
+						<li><a href="#" ><span class="fa fa-brands fa-linkedin" ></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- End Footer Section -->
+
+
+	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- Tiny Slider JS -->
+    <script type="text/javascript" src="js/tiny-slider.js"></script>
+    <!-- Custom Script -->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
